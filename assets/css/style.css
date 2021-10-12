@@ -1,14 +1,16 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    font-size:large;
 }
 
 body{
-
+    background: url(/assets/img/embossed-diamond.png) repeat 0 0;
 }
 
 main{
-    background-color: #DEDAA0;
+    background-color: #B3A0DE;
     padding-bottom: 10px;
+    box-shadow: 0 0 1em 1em #ccc;
 }
 
 a, a:hover, a:focus{
@@ -24,10 +26,10 @@ a, a:hover, a:focus{
     margin-top: 10px;
 }
 
-#carouselProjects h5,#carouselProjects p{
-    color: white;
+#carouselProjects h5,#carouselProjects p, #carouselProjects a{
+    color: black;
     font-weight: bolder;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 3px white;
 }
 
 .links {
